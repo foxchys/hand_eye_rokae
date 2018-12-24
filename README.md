@@ -2,7 +2,7 @@
   
 
 This is a robotic hand-eye system of [rokae industrial robot](http://www.rokae.com/) and [basler industrial camera](https://www.basler.com/).  
-The system uses the [aruco](https://www.uco.es/investiga/grupos/ava/node/26)and [opencv](https://opencv.org/) for target detection.Communication between the robot and the computer based on the socket.
+The system uses the [aruco](https://www.uco.es/investiga/grupos/ava/node/26) and [opencv](https://opencv.org/) for target detection.Communication between the robot and the computer based on the socket.
 ![system](https://raw.githubusercontent.com/NikofoxS/hand-eye-rokae/master/pictures/robot_systerm.jpg)    
 
 ## UI
