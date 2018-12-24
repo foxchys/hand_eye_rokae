@@ -15,5 +15,14 @@ Robot underlying scripts are programmed using robot language.The system version 
 
 ## some method  
 Some methods about this system.  
-### three point method 
+### calibrate method  
+The relationship between the camera and the checkerboard can be obtained by using the method in the paper [Zhengyou Zhang. A flexible new technique for camera calibration.](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr98-71.pdf).Take the checkerboard coordinate system as the origin, the X direction, and the three points in the Y direction,read the coordinates of the point in the robot base coordinate system through the robot teach pendant.Based on the principle of the optional matrix, the relationship between the base coordinate system and the checkerboard can be obtained.So far, the relationship between the camera and the base coordinate system can be found.  
+### pretend to find the target
+Each time the coordinates of the control point of the arm and the target point in the base coordinate system are read,confirming a sphere from the two points for the diameter.Each time a random point in the ball is set as the target point of the robot control point movement.  
 
+
+
+
+
+NikofoxS  
+Email:chy_s@outlook.com
