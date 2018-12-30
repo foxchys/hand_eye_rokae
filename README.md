@@ -10,7 +10,7 @@ User interface development based on MFC.Click the button "touch target" to move 
 ![UI](https://raw.githubusercontent.com/NikofoxS/hand-eye-rokae/master/pictures/dispaly_ui.PNG)  
 
 ## Robot teach pendant  
-Robot underlying scripts are programmed using robot language.The system version is 3.2.0.Confirmed with the engineer of rokae, there are still some problems with the system.Each time a socket link can only receive information once.Preliminary inference that rokae cannot clear the socket receive buffer.
+Robot underlying scripts are programmed using robot language.The system version is 3.2.0.
 ![teach pendant](https://raw.githubusercontent.com/NikofoxS/hand-eye-rokae/master/pictures/rokae_tercher.jpg)  
 
 ## some method  
